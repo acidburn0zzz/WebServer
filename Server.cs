@@ -12,7 +12,18 @@ namespace WebServer
         public Server(int port)
         {
             listener = new TcpListener(port);
-            listener.Start();
+
+            try
+            {
+                listener.Start();
+            }
+
+            catch (SocketException except)
+            {
+                Console.WriteLine("Error!\nAn exception while starting server!\n" + except.Message);
+                return;
+            }
+
             Listen(Console.Out);
         }
 
