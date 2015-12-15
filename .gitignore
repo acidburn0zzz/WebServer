@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.ico
+bin/Debug/index.html
+*.pdb
+WebServer.csproj
+*.user
+*.exe
+obj/Debug/WebServer.csproj.FileListAbsolute.txt
+*.manifest
+Properties/AssemblyInfo.cs
