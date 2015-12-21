@@ -54,3 +54,5 @@ WebServer.csproj
 obj/Debug/WebServer.csproj.FileListAbsolute.txt
 *.manifest
 Properties/AssemblyInfo.cs
+WebServer.sln
+*.suo
